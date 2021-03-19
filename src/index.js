@@ -2,7 +2,7 @@ window.addEventListener('load', init, false);
 
 let numCards = 6;
 document.getElementById('start').addEventListener('click',startTimer);
-for(let i=0;i<=numCards;i++){
+for(let i=1;i<=numCards;i++){
     document.getElementById(`${i}`).addEventListener('click',() => {showImage(`${i}`)});
 }
 
