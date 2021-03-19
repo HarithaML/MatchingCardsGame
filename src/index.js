@@ -1,4 +1,5 @@
 window.addEventListener('load', init, false);
+document.getElementById('start').addEventListener('click',startTimer);
 
 let showElementById = (id) => document.getElementById(`card${id}`).style.visibility = 'visible';
 let hideElementById = (id) => document.getElementById(`card${id}`).style.visibility = 'hidden';
