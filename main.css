@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+.background {
+  background-color: #d55b3e;
+  display: flex;
+  flex-direction: column;
+  margin: 100px; }
+  .background .heading {
+    color: #fcf4d9;
+    font-family: "Shadows Into Light", cursive;
+    align-self: center; }
+
+.btn {
+  color: #fcf4d9;
+  text-decoration: none;
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Syne Mono', monospace;
+  font-size: 1em; }
+
+.btn-red {
+  background: #00aaa0; }
+  .btn-red:hover {
+    background: #00817a;
+    transition: all 0.3s ease; }
+  .btn-red:active {
+    background: #002b28; }
+
+.time {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+
+.buttons {
+  display: flex;
+  justify-content: center; }
+
+.card {
+  background: #fcf4d9;
+  align-items: center;
+  margin: 20px;
+  perspective: 1000px; }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-self: center; }
+
+#container1 {
+  display: flex;
+  flex-direction: row; }
+
+#container2 {
+  display: flex;
+  flex-direction: row; }
+
+.card img {
+  visibility: hidden; }
+
+#message {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  color: #883c82; }
+
+/*# sourceMappingURL=main.css.map */
