@@ -1,5 +1,10 @@
 window.addEventListener('load', init, false);
+
+let numCards = 6;
 document.getElementById('start').addEventListener('click',startTimer);
+for(let i=0;i<=numCards;i++){
+    document.getElementById(`${i}`).addEventListener('click',() => {showImage(`${i}`)});
+}
 
 let showElementById = (id) => document.getElementById(`card${id}`).style.visibility = 'visible';
 let hideElementById = (id) => document.getElementById(`card${id}`).style.visibility = 'hidden';
@@ -14,7 +19,6 @@ let totalMinutes = 0;
 let stop;
 
 
-let numCards = 6;
 const timeoutValue = 1000;
 
 let matchingPairs;
