@@ -17,7 +17,7 @@ let showElementById = (id) => document.getElementById(`card${id}`).style.visibil
 let hideElementById = (id) => document.getElementById(`card${id}`).style.visibility = 'hidden';
 let hideElement = (element) => element.style.visibility = 'hidden';
 let numberGenerator = () => {return Math.floor(Math.random() * numCards) + 1};
-let setSourceAttribute = (image,name) => image.setAttribute("src", `pics/${name}`);
+let setSourceAttribute = (image,name) => image.setAttribute("src", `src/pics/${name}`);
 
 document.getElementById('start').addEventListener('click',startTimer);
 for(let i=1;i<=numCards;i++){
